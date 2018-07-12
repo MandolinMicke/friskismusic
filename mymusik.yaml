@@ -1,0 +1,980 @@
+- Song:
+    artist: CHVCHES
+    bpm: 43
+    fits:
+    - styrka
+    song: Down Side of ME
+    used: false
+- Song:
+    artist: REM
+    bpm: 52
+    fits:
+    - styrka
+    song: Low
+    used: false
+- Song:
+    artist: The Chainsmokers
+    bpm: 40
+    fits:
+    - styrka
+    song: Don't let me down
+    used: true
+- Song:
+    artist: REM
+    bpm: 47
+    fits:
+    - styrka
+    song: Leave
+    used: false
+- Song:
+    artist: Bruce Springsteen
+    bpm: 140
+    fits:
+    - kondition
+    song: Radio Nowhere
+    used: false
+- Song:
+    artist: Timo Räisänen
+    bpm: 168
+    fits:
+    - löpning
+    song: Fear no Darkness, Promised Child
+    used: false
+- Song:
+    artist: Starley
+    bpm: 104
+    fits:
+    - kondition
+    - uppvärmning
+    song: Call on Me - Ryan Riback remix
+    used: false
+- Song:
+    artist: Madden
+    bpm: 124
+    fits:
+    - uppvärmning
+    song: Golden Light
+    used: false
+- Song:
+    artist: Sage The Gemini
+    bpm: 108
+    fits:
+    - kondition
+    song: Now and Later
+    used: true
+- Song:
+    artist: State of sound
+    bpm: 116
+    fits:
+    - uppvärmning
+    song: Wake Up Where you are
+    used: false
+- Song:
+    artist: Klingande
+    bpm: 125
+    fits:
+    - kondition
+    - uppvärmning
+    song: Somewhere new
+    used: false
+- Song:
+    artist: The weekend
+    bpm: 94
+    fits:
+    - nedvarvning
+    song: Starboy
+    used: true
+- Song:
+    artist: The Chainsmokers
+    bpm: 90
+    fits:
+    - nedvarvning
+    - styrka
+    song: All we know
+    used: false
+- Song:
+    artist: Imany
+    bpm: 120
+    fits:
+    - kondition
+    song: Don't be so Shy
+    used: false
+- Song:
+    artist: Calvin Harris, Ellie Goulding
+    bpm: 128
+    fits:
+    - kondition
+    song: Outside
+    used: false
+- Song:
+    artist: Tove Lo
+    bpm: 98
+    fits:
+    - stretch
+    - styrka
+    song: True Distaster
+    used: false
+- Song:
+    artist: Lorde
+    bpm: 84
+    fits:
+    - styrka
+    - stretch
+    song: Royals
+    used: false
+- Song:
+    artist: Galantis
+    bpm: 127
+    fits:
+    - kondition
+    song: No Money
+    used: false
+- Song:
+    artist: Pitbull
+    bpm: 131
+    fits:
+    - kondition
+    song: Timber
+    used: false
+- Song:
+    artist: Cashmere Cat
+    bpm: 117
+    fits:
+    - styrka
+    - uppvärmning
+    song: Trust Nobody
+    used: false
+- Song:
+    artist: Jessie J
+    bpm: 88
+    fits:
+    - nedvarvning
+    song: Price Tag
+    used: true
+- Song:
+    artist: Sigala
+    bpm: 128
+    fits:
+    - kondition
+    song: Sweet Lovin
+    used: false
+- Song:
+    artist: Highly Suspect
+    bpm: 70
+    fits:
+    - styrka
+    song: My name is Human
+    used: true
+- Song:
+    artist: Judah & the lion
+    bpm: 75
+    fits:
+    - styrka
+    song: Take it all back 2.0
+    used: false
+- Song:
+    artist: Dinosaur pile-up
+    bpm: 94
+    fits:
+    - kondition
+    - styrka
+    song: '11:11'
+    used: true
+- Song:
+    artist: Pandora
+    bpm: 138
+    fits:
+    - kondition
+    song: Trust Me
+    used: true
+- Song:
+    artist: DJ Katch, Hayley
+    bpm: 118
+    fits:
+    - uppvärmning
+    - kondition
+    song: Lights out
+    used: false
+- Song:
+    artist: Major Lazer, Ellie Goulding
+    bpm: 66
+    fits:
+    - styrka
+    song: Powerful
+    used: false
+- Song:
+    artist: Swedish House Maffia
+    bpm: 128
+    fits:
+    - kondition
+    song: Greyhound
+    used: false
+- Song:
+    artist: Olivia Holt
+    bpm: 100
+    fits:
+    - uppvärmning
+    song: History
+    used: true
+- Song:
+    artist: Flume, Tove Lo
+    bpm: 38
+    fits:
+    - styrka
+    song: Say IT
+    used: true
+- Song:
+    artist: Bakermat
+    bpm: 128
+    fits:
+    - uppvärmning
+    - kondition
+    song: Baby
+    used: true
+- Song:
+    artist: Syn Cole
+    bpm: 128
+    fits:
+    - kondition
+    song: Miami 82 - vocal radio Mix
+    used: false
+- Song:
+    artist: Hot Shade
+    bpm: 122
+    fits:
+    - uppvärmning
+    song: Touching you again
+    used: false
+- Song:
+    artist: Martin Jensen
+    bpm: 116
+    fits:
+    - uppvärmning
+    song: Solo Dance
+    used: false
+- Song:
+    artist: John de Sohn
+    bpm: 76
+    fits:
+    - styrka
+    song: Standing when it all falls down
+    used: true
+- Song:
+    artist: Tove Styrke
+    bpm: 140
+    fits:
+    - kondition
+    song: White Light Moment
+    used: false
+- Song:
+    artist: Tove Styrke
+    bpm: 130
+    fits:
+    - kondition
+    song: Call My Name
+    used: false
+- Song:
+    artist: Tove Styrke
+    bpm: 72
+    fits:
+    - styrka
+    song: Burn
+    used: true
+- Song:
+    artist: Walk the Moon
+    bpm: 128
+    fits:
+    - kondition
+    song: Shut up and Dance
+    used: true
+- Song:
+    artist: Timbuktu
+    bpm: 69
+    fits:
+    - styrka
+    song: Flickan och Kråkan
+    used: false
+- Song:
+    artist: Imagine Dragon
+    bpm: 42
+    fits:
+    - styrka
+    song: Thunder
+    used: false
+- Song:
+    artist: Katy Perry
+    bpm: 45
+    fits:
+    - styrka
+    song: Roar
+    used: true
+- Song:
+    artist: Fleur East
+    bpm: 120
+    fits:
+    - kondition
+    song: Sax
+    used: false
+- Song:
+    artist: Jason Derulo, Nikki Minage
+    bpm: 100
+    fits:
+    - kondition
+    song: Swalla
+    used: false
+- Song:
+    artist: Pitbull
+    bpm: 124
+    fits:
+    - kondition
+    song: Fireball
+    used: false
+- Song:
+    artist: Scott Bradlee's postmodern Jukebox
+    bpm: 48
+    fits:
+    - stretch
+    song: Seven Nation Army
+    used: false
+- Song:
+    artist: Alessia Cara
+    bpm: 90
+    fits:
+    - nedvarvning
+    song: How Far I'll Go
+    used: false
+- Song:
+    artist: Scott Bradlee's postmodern Jukebox
+    bpm: 55
+    fits:
+    - stretch
+    song: Opps.. I did it again
+    used: false
+- Song:
+    artist: Timo Räisänen
+    bpm: 174
+    fits:
+    - löpning
+    song: About you now
+    used: true
+- Song:
+    artist: Radiohead
+    bpm: 90
+    fits:
+    - styrka
+    song: Creep
+    used: false
+- Song:
+    artist: Pandora
+    bpm: 108
+    fits:
+    - uppvärmning
+    song: Tell the world
+    used: false
+- Song:
+    artist: SOAP
+    bpm: 116
+    fits:
+    - kondition
+    song: Ladidi Ladida
+    used: false
+- Song:
+    artist: Black Teacher, Cool James
+    bpm: 128
+    fits:
+    - kondition
+    song: Dr. Feelgood
+    used: false
+- Song:
+    artist: Timbuktu
+    bpm: 110
+    fits:
+    - uppvärmning
+    song: Resten av ditt liv
+    used: false
+- Song:
+    artist: CHVRCHES
+    bpm: 53
+    fits:
+    - styrka
+    song: Lies
+    used: true
+- Song:
+    artist: CHVRCHES
+    bpm: 100
+    fits:
+    - kondition
+    song: Bury it
+    used: true
+- Song:
+    artist: CHVRCHES
+    bpm: 48
+    fits:
+    - styrka
+    song: Warning Call
+    used: false
+- Song:
+    artist: Ellie Goulding
+    bpm: 48
+    fits:
+    - stretch
+    song: Still Falling for you
+    used: true
+- Song:
+    artist: Daya
+    bpm: 92
+    fits:
+    - nedvarvning
+    song: Sit still look pretty
+    used: false
+- Song:
+    artist: Alan Walker
+    bpm: 45
+    fits:
+    - stretch
+    - styrka
+    song: Faded
+    used: false
+- Song:
+    artist: Alan Walker
+    bpm: 45
+    fits:
+    - stretch
+    song: Sing me to sleep
+    used: false
+- Song:
+    artist: Johnossi, Anna Ternheim
+    bpm: 59
+    fits:
+    - stretch
+    song: Seventeen
+    used: false
+- Song:
+    artist: Sophia Somajo
+    bpm: 100
+    fits:
+    - styrka
+    song: I-rony
+    used: true
+- Song:
+    artist: Zedd, Alessia Cara
+    bpm: 104
+    fits:
+    - kondition
+    song: Stay
+    used: true
+- Song:
+    artist: Ace of Base
+    bpm: 100
+    fits:
+    - uppvärmning
+    song: The Sign
+    used: false
+- Song:
+    artist: Burak Yeter, Danelie Sadoval
+    bpm: 100
+    fits:
+    - styrka
+    song: Tuesday
+    used: false
+- Song:
+    artist: Kamferdrops
+    bpm: 113
+    fits:
+    - kondition
+    song: Jag trodde änglarna fanns
+    used: false
+- Song:
+    artist: The Chainsmokers
+    bpm: 100
+    fits:
+    - uppvärmning
+    song: Paris
+    used: false
+- Song:
+    artist: Nause, Pretty Sister
+    bpm: 106
+    fits:
+    - kondition
+    song: Dynamite
+    used: false
+- Song:
+    artist: Nelly Furtado, Timbaland
+    bpm: 57
+    fits:
+    - styrka
+    song: Promiscuous
+    used: false
+- Song:
+    artist: Nelly Furtado
+    bpm: 112
+    fits:
+    - uppvärmning
+    song: Powerless
+    used: false
+- Song:
+    artist: Timbaland, onerepublic
+    bpm: 60
+    fits:
+    - styrka
+    song: Apologize
+    used: false
+- Song:
+    artist: Timbaland, Heri Hilson, DOE
+    bpm: 117
+    fits:
+    - kondition
+    song: The Way I are
+    used: true
+- Song:
+    artist: Jay Z, Linking Park
+    bpm: 54
+    fits:
+    - styrka
+    song: Numb, Encore
+    used: false
+- Song:
+    artist: Sister hazel
+    bpm: 39
+    fits:
+    - stretch
+    song: Your winter
+    used: true
+- Song:
+    artist: Blasterjax
+    bpm: 128
+    fits:
+    - kondition
+    song: Faith-Radio Edit
+    used: false
+- Song:
+    artist: Jax jones
+    bpm: 120
+    fits:
+    - kondition
+    song: Instruction
+    used: true
+- Song:
+    artist: Selena Gomez
+    bpm: 45
+    fits:
+    - stretch
+    song: Good for you
+    used: true
+- Song:
+    artist: Selena Gomez
+    bpm: 42
+    fits:
+    - stretch
+    song: The heart wants what it wants
+    used: false
+- Song:
+    artist: Kygo, Selena Gomez
+    bpm: 100
+    fits:
+    - styrka
+    song: It Ain't me
+    used: false
+- Song:
+    artist: Astrid S
+    bpm: 62
+    fits:
+    - styrka
+    song: Think Before I talk
+    used: true
+- Song:
+    artist: JOY
+    bpm: 105
+    fits:
+    - kondition
+    song: Kattliv
+    used: false
+- Song:
+    artist: Rag'n Bone Man
+    bpm: 85
+    fits:
+    - styrka
+    song: Skin
+    used: false
+- Song:
+    artist: Solemina
+    bpm: 80
+    fits:
+    - stretch
+    song: Paper
+    used: true
+- Song:
+    artist: Solemina
+    bpm: 43
+    fits:
+    - stretch
+    song: Cracks
+    used: false
+- Song:
+    artist: Tove Styrke
+    bpm: 46
+    fits:
+    - styrka
+    song: Mistakes
+    used: true
+- Song:
+    artist: MÖ
+    bpm: 104
+    fits:
+    - styrka
+    song: Final Song
+    used: false
+- Song:
+    artist: Alan Walker
+    bpm: 98
+    fits:
+    - uppvärmning
+    song: All Falls Down
+    used: true
+- Song:
+    artist: Selena Gomez
+    bpm: 98
+    fits:
+    - styrka
+    song: Same Old Love
+    used: false
+- Song:
+    artist: Mark Ronson, Bruno Mars
+    bpm: 114
+    fits:
+    - uppvärmning
+    - kondition
+    song: Uptown Funk
+    used: true
+- Song:
+    artist: Clean Bandit, Jess Glunne
+    bpm: 120
+    fits:
+    - kondition
+    song: Rather Be
+    used: false
+- Song:
+    artist: Blackstreet, Dr. Dre
+    bpm: 90
+    fits:
+    - kondition
+    song: No Diggity
+    used: false
+- Song:
+    artist: The Score
+    bpm: 150
+    fits:
+    - löpning
+    song: Oh My Love
+    used: false
+- Song:
+    artist: T.A.T.u.
+    bpm: 90
+    fits:
+    - styrka
+    song: All the things she said
+    used: false
+- Song:
+    artist: T.A.T.u.
+    bpm: 82
+    fits:
+    - styrka
+    song: All about us
+    used: false
+- Song:
+    artist: Phoebe Ryan
+    bpm: 84
+    fits:
+    - styrka
+    - stretch
+    song: Dark Side
+    used: false
+- Song:
+    artist: Esther Vallee
+    bpm: 47
+    fits:
+    - styrka
+    song: Numbers
+    used: false
+- Song:
+    artist: Tiësto, KSHMR
+    bpm: 128
+    fits:
+    - kondition
+    song: Secrets
+    used: true
+- Song:
+    artist: Massari
+    bpm: 85
+    fits:
+    - styrka
+    song: Done Da Da
+    used: false
+- Song:
+    artist: Linnea Henriksson, Toe Styrke
+    bpm: 72
+    fits:
+    - nedvarvning
+    song: Andas
+    used: true
+- Song:
+    artist: HOFFMAESTRO
+    bpm: 160
+    fits:
+    - löpning
+    song: Highway man
+    used: true
+- Song:
+    artist: Veronica Maggio
+    bpm: 150
+    fits:
+    - löpning
+    song: Jag kommer
+    used: false
+- Song:
+    artist: September, Petter
+    bpm: 128
+    fits:
+    - kondition
+    song: Baksmälla
+    used: true
+- Song:
+    artist: SuperOrganism
+    bpm: 70
+    fits:
+    - styrka
+    song: Something for your mind
+    used: true
+- Song:
+    artist: Marshmello, Anne-Marie
+    bpm: 95
+    fits:
+    - kondition
+    song: FRIENDS
+    used: false
+- Song:
+    artist: Tove Styrke
+    bpm: 60
+    fits:
+    - styrka
+    song: Sway
+    used: false
+- Song:
+    artist: MAYKA
+    bpm: 60
+    fits:
+    - styrka
+    song: Rich
+    used: false
+- Song:
+    artist: Anne-Marie
+    bpm: 106
+    fits:
+    - uppvärmning
+    song: Chiao Adios
+    used: false
+- Song:
+    artist: Five Finger Death Punch
+    bpm: 97
+    fits:
+    - kondition
+    song: Sham Pain
+    used: false
+- Song:
+    artist: Britney Spears
+    bpm: 129
+    fits:
+    - kondition
+    song: Work Bitch
+    used: false
+- Song:
+    artist: Lights
+    bpm: 124
+    fits:
+    - kondition
+    - uppvärmning
+    song: Toes
+    used: false
+- Song:
+    artist: CHVRCHES
+    bpm: 144
+    fits:
+    - kondition
+    song: Graves
+    used: false
+- Song:
+    artist: Norlie & KKV, estrad
+    bpm: 87
+    fits:
+    - nedvarvning
+    song: Mer för varandra
+    used: false
+- Song:
+    artist: Klingande
+    bpm: 124
+    fits:
+    - uppvärmning
+    song: Punped Up
+    used: false
+- Song:
+    artist: Iggy Azalea, Ellie Goulding
+    bpm: 77
+    fits:
+    - styrka
+    song: Heavy Crown
+    used: false
+- Song:
+    artist: Big Wild, Tove Styrke
+    bpm: 96
+    fits:
+    - kondition
+    song: Aftergold
+    used: false
+- Song:
+    artist: Major Lazer, Amber of Dirty Projectors
+    bpm: 44
+    fits:
+    - styrka
+    - stretch
+    song: Get Free
+    used: false
+- Song:
+    artist: The AKs
+    bpm: 98
+    fits:
+    - styrka
+    song: Peru Secreto
+    used: false
+- Song:
+    artist: The Aks
+    bpm: 93
+    fits:
+    - nedvarvning
+    song: Someone's Got to Go
+    used: false
+- Song:
+    artist: Rita Ora
+    bpm: 120
+    fits:
+    - uppvärmning
+    - styrka
+    song: Your Song
+    used: false
+- Song:
+    artist: Johnossi
+    bpm: 152
+    fits:
+    - löpning
+    song: Execution Song
+    used: false
+- Song:
+    artist: Hello Saferide
+    bpm: 52
+    fits:
+    - stretch
+    song: Rocky
+    used: false
+- Song:
+    artist: Elle King
+    bpm: 72
+    fits:
+    - styrka
+    genre:
+    - pop
+    song: Exs & Ohs
+    spotifylink: https://open.spotify.com/track/70eDxAyAraNTiD6lx2ZEnH?si=BAUq_r4HRL6KXSZQZ0TfoQ
+    used: false
+- Song:
+    artist: Daft Punk, Julian Casablancas
+    bpm: 55
+    fits:
+    - styrka
+    genre:
+    - electronic
+    song: Instan Crush
+    spotifylink: https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6?si=aO_2BhZzTCaWeph1JAM4dw
+    used: false
+- Song:
+    artist: Foo Fighters
+    bpm: 159
+    fits:
+    - löpning
+    genre:
+    - metal
+    song: Everlong
+    spotifylink: https://open.spotify.com/track/5UWwZ5lm5PKu6eKsHAGxOk?si=rDl0ulOZSzO3XtF4va5swQ
+    used: false
+- Song:
+    artist: Foo Fighters
+    bpm: 174
+    fits:
+    - löpning
+    genre:
+    - metal
+    song: The Pretender
+    spotifylink: https://open.spotify.com/track/7x8dCjCr0x6x2lXKujYD34?si=xulOfCrYRaCdR0MpSagPlw
+    used: false
+- Song:
+    artist: Foo Fighters
+    bpm: 78
+    fits:
+    - styrka
+    genre:
+    - metal
+    song: My Hero
+    spotifylink: https://open.spotify.com/track/4dVbhS6OiYvFikshyaQaCN?si=z4gmvsKfS5aakrZ0HWTiqw
+    used: false
+- Song:
+    artist: Foo Fighters
+    bpm: 174
+    fits:
+    - löpning
+    genre:
+    - metal
+    song: Monkey Wrench
+    spotifylink: https://open.spotify.com/track/44wXefe8WB9Fd6xwtmAwbR?si=3ds4edHOR5aKj1SatRC5WA
+    used: false
+- Song:
+    artist: Foo Fighters
+    bpm: 62
+    fits:
+    - styrka
+    genre:
+    - metal
+    song: Dear Rosemary
+    spotifylink: https://open.spotify.com/track/2LvUuLo5KB3UB5CZMJxnwG?si=SuxRk2J2SveQgivRlOmQ9g
+    used: false
+- Song:
+    artist: Fall Out Boy
+    bpm: 156
+    fits:
+    - löpning
+    genre:
+    - punk
+    - rock
+    song: Thanks for the Memory
+    spotifylink: https://open.spotify.com/track/3Zwu2K0Qa5sT6teCCHPShP?si=STBTb814SKaQgvJge43Ttg
+    used: false
+- Song:
+    artist: My Chemical Romance
+    bpm: 112
+    fits:
+    - uppvärmning
+    - styrka
+    - kondition
+    genre:
+    - punk
+    song: Teenagers
+    spotifylink: https://open.spotify.com/track/7j31rVgGX9Q2blT92VBEA0?si=3LwJ2rtuRkaSf3qa8MBxuA
+    used: false
+- Song:
+    artist: Green Day
+    bpm: 53
+    fits:
+    - styrka
+    genre:
+    - punk
+    - rock
+    song: Wake Me Up When September Ends
+    spotifylink: https://open.spotify.com/track/3ZffCQKLFLUvYM59XKLbVm?si=MROgyUsGR-CurMfZGowdPA
+    used: false
