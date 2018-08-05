@@ -19,5 +19,6 @@ genres = [
         'oldies',
         'svenskt',
         'indie',
-        'electronic'
+        'electronic',
+        'country'
         ]

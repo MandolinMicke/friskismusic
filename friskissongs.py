@@ -83,39 +83,74 @@ class friskissongs:
         self.printSongs(artistindex,printinfo)
         return artistindex
         
-    
+    def isNotUsed(self,printinfo = True):
+        used = [not x.used for x in self.allsongs]
+        usedindex = [i for i, x in enumerate(used) if x]
+        self.printSongs(usedindex,printinfo)
+        return usedindex
+								
     def findFitsFor(self,fitsfor,printinfo = True):
-        songs = [fitsfor.lower() in x.fitsfor for x in self.allsongs]
+        songs = [fitsfor.lower() in x.fits for x in self.allsongs]
+        songindex = [i for i, x in enumerate(songs) if x]
+        self.printSongs(songindex,printinfo)
+        return songindex
+       
+    def findGenre(self,genre,printinfo = True):
+        songs = [genre.lower() in x.genre for x in self.allsongs]
         songindex = [i for i, x in enumerate(songs) if x]
         self.printSongs(songindex,printinfo)
         return songindex
        
     
     def findBPM(self,wantedbpm,includedouplicates=False,printinfo = True):
-        retindexmain = self.findsingleBPM(wantedbpm,self.tolerance,[])
-        self.printSongs(retindexmain,printinfo)
-            
-        if includedouplicates:
-            retindexdouble = self.findsingleBPM(wantedbpm*2,self.tolerance*2,[])
-            retindexhalf = self.findsingleBPM(wantedbpm/2,self.tolerance/2,[])
-            self.printSongs(retindexdouble,printinfo)
-            self.printSongs(retindexhalf,printinfo)     
-            allindex = retindexmain + retindexhalf + retindexdouble
+				
+        if wantedbpm == 0:
+            allindex = [i for i in range(len(self.allsongs))]
         else:
-            allindex = retindexmain
+	         retindexmain = self.findsingleBPM(wantedbpm,self.tolerance,[])
+	         self.printSongs(retindexmain,printinfo)
+	            
+	         if includedouplicates:
+	             retindexdouble = self.findsingleBPM(wantedbpm*2,self.tolerance*2,[])
+	             retindexhalf = self.findsingleBPM(wantedbpm/2,self.tolerance/2,[])
+	             self.printSongs(retindexdouble,printinfo)
+	             self.printSongs(retindexhalf,printinfo)     
+	             allindex = retindexmain + retindexhalf + retindexdouble
+	         else:
+	             allindex = retindexmain
             
         return allindex
     def findsingleBPM(self,wantedbpm, tol = 5,retindex = []):
         logicalvector = [abs(x.bpm -wantedbpm) < tol for x in self.allsongs]
         return [i for i, x in enumerate(logicalvector) if x]
     
-    def addSong(self,artist = None,song = None,bpm = None,fits = None,genre = None,spotifylink = None):
-        self.allsongs.append(js.jympasong(artist,song,bpm,fits,genre,spotifylink))
-        
+    def addSong(self,artist = None,song = None,bpm = None,fits = None,genre = None,spotifylink = None,used=None):
+        if (True not in [(x.artist == artist and x.song == song) for x in self.allsongs]):
+	        self.allsongs.append(js.jympasong(artist,song,bpm,fits,genre,spotifylink,used))
+        else:
+	        print('song already exists')
+
+    def editSong(self,index,artist = None,song = None,bpm = None,fits = None,genre = None,spotifylink = None,used = None):
+        if artist:
+            self.allsongs[index].artist = artist
+        if song:
+            self.allsongs[index].song = song
+        if bpm:
+            self.allsongs[index].bpm = bpm
+        if fits:
+            self.allsongs[index].fits = []
+            self.allsongs[index].addFits(fits)
+        if genre:
+            self.allsongs[index].genre = []
+            self.allsongs[index].addGenre(genre)
+        if spotifylink:
+            self.allsongs[index].spotifylink = spotifylink
+        if used:
+            self.allsongs[index].used = used
+
 if __name__ == '__main__':
     songfile = 'mymusik.yaml'
     mylist = friskissongs()
-       
     
     mylist.loadSongsFromYaml(songfile)
 

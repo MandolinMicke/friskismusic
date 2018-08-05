@@ -978,3 +978,24 @@
     song: Wake Me Up When September Ends
     spotifylink: https://open.spotify.com/track/3ZffCQKLFLUvYM59XKLbVm?si=MROgyUsGR-CurMfZGowdPA
     used: false
+- Song:
+    artist: Bad Wolves
+    bpm: 78
+    fits:
+    - styrka
+    genre:
+    - rock
+    song: Zombie
+    spotifylink: https://open.spotify.com/track/1vNoA9F5ASnlBISFekDmg3?si=ExjLBr90QIyvaq8hXANz4g
+    used: false
+- Song:
+    artist: First Aid Kit
+    bpm: 56
+    fits:
+    - styrka
+    - stretch
+    genre:
+    - pop
+    song: Running up that Hill
+    spotifylink: https://open.spotify.com/track/7KIXAzdiG2Pae7spgsklZo?si=sw8s-NDqS7uwlCLO8XN-ew
+    used: false

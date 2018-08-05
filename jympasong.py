@@ -9,7 +9,7 @@ import jympatypes as jt
 
 class jympasong:
     
-    def __init__(self,artist = '',song= '',bpm = 0,fitsinp = None,genreinp = None,spotifylink = ''):
+    def __init__(self,artist = '',song= '',bpm = 0,fitsinp = None,genreinp = None,spotifylink = '',used = False):
         self.artist = artist
         self.song = song
         self.bpm = bpm
@@ -20,13 +20,13 @@ class jympasong:
         if fitsinp is not None:
             self.addFits(fitsinp)
         self.spotifylink = spotifylink
-        self.used = False
+        self.used = used
 
                 
     def addGenre(self,genre):
         for i in genre:
             if i.lower() in jt.genres:
-                self.genre.append(i)
+                self.genre.append(i)	
             else:
                 print(i + ' is not a valid genre')
     
@@ -60,22 +60,28 @@ class jympasong:
                 
                 
     def printinfo(self,showused = True):
+        
+        if showused or not self.used:
+            print(self.artist + '; ' + self.song + '; ' + str(self.bpm) + '; ' + self.getGenres() + '; ' + self.getFits() + '; ' +self.spotifylink)
+            
+    def getGenres(self):
         genres = ''
-        fitss = ''
         for i in self.genre:
             if len(genres) == 0:
                 genres += i
             else:
                 genres += ', ' + i
+        return genres
+
+    def getFits(self):
+        fitss = ''
         for i in self.fits:
             if len(fitss) == 0:
                 fitss += i
             else:
                 fitss += ', ' + i
-        if showused or not self.used:
-            print(self.artist + '; ' + self.song + '; ' + str(self.bpm) + '; ' + genres + '; ' + fitss + '; ' +self.spotifylink)
-            
-
+        return fitss
+								
     def getYamlout(self):
         retdict = dict()
         retdict['Song'] = dict()
@@ -94,14 +100,3 @@ class jympasong:
             retdict['Song']['spotifylink'] = self.spotifylink
         
         return retdict
-    
-
-    
-    
-#        return {'Song': {'artist':self.artist, \
-#                         'song':self.song,\
-#                         'bpm':self.bpm,\
-#                         'genre':self.genre,\
-#                         'fits':self.fits,\
-#                         'used':self.used, \
-#                         'spotifylink':self.spotifylink}}
