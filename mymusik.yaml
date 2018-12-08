@@ -999,3 +999,209 @@
     song: Running up that Hill
     spotifylink: https://open.spotify.com/track/7KIXAzdiG2Pae7spgsklZo?si=sw8s-NDqS7uwlCLO8XN-ew
     used: false
+- Song:
+    artist: AURORA
+    bpm: 124
+    fits:
+    - uppvärmning
+    genre:
+    - pop
+    song: Forgotten Love
+    spotifylink: spotify:track:0nRNqasPnpHXsHbOighfaj
+    used: false
+- Song:
+    artist: Rihanna
+    bpm: 128
+    fits:
+    - kondition
+    - uppvärmning
+    song: S&M
+    spotifylink: spotify:track:0C4ejWmOTMv8vuYj85mf8m
+    used: false
+- Song:
+    artist: Ellie Goulding
+    bpm: 77
+    fits:
+    - styrka
+    song: On My Mind
+    spotifylink: spotify:track:5a7NdkF09AfD0H607eiOkX
+    used: false
+- Song:
+    artist: Ghost
+    bpm: 126
+    fits:
+    - styrka
+    - uppvärmning
+    song: Dance Macabre
+    spotifylink: spotify:track:3ZZKg4Xt5PNtihSJS722JS
+    used: false
+- Song:
+    artist: Dynoro, Gigi D'Agostino
+    bpm: 63
+    fits:
+    - styrka
+    song: In My Mind
+    spotifylink: spotify:track:0E9ZjEAyAwOXZ7wJC0PD33
+    used: false
+- Song:
+    artist: David Guetta, Anne-Marie
+    bpm: 128
+    fits:
+    - styrka
+    song: Don't Leave Me Alone (feat. Anne-Marie)
+    spotifylink: spotify:track:2lYTJK94hb0fd1LQtb6Dhk
+    used: false
+- Song:
+    artist: Klara & Jag
+    bpm: 135
+    fits:
+    - stretch
+    song: Du & jag
+    spotifylink: spotify:track:7gciyTA3aGQhQcH5sRmauI
+    used: false
+- Song:
+    artist: Lights
+    bpm: 110
+    fits:
+    - styrka
+    song: Savage
+    spotifylink: spotify:track:4mR7KZ8vEe7MfJHDCIfkOj
+    used: false
+- Song:
+    artist: Lights
+    bpm: 78
+    fits:
+    - styrka
+    - stretch
+    song: Kicks
+    spotifylink: spotify:track:7pMqFPtr3c3xa3LBsLPynf
+    used: false
+- Song:
+    artist: Ghost
+    bpm: 130
+    fits:
+    - kondition
+    - uppvärmning
+    genre:
+    - metal
+    song: Square Hammer
+    spotifylink: spotify:track:4AbGkIVQC5wLDPOFjdEjDu
+    used: false
+- Song:
+    artist: Brennan Heart
+    bpm: 150
+    fits:
+    - kondition
+    song: 3, 2, 1 (GO!)
+    spotifylink: spotify:track:0FSC7DvZw4iKFJqGxhpQs0
+    used: false
+- Song:
+    artist: Shebang
+    bpm: 170
+    fits:
+    - löpning
+    song: Crash
+    spotifylink: spotify:track:5leOIDX4YmuHJSADKQmwTw
+    used: false
+- Song:
+    artist: Ava Max
+    bpm: 133
+    fits:
+    - kondition
+    - uppvärmning
+    genre:
+    - pop
+    song: Sweet but Psycho
+    spotifylink: spotify:track:25sgk305KZfyuqVBQIahim
+    used: false
+- Song:
+    artist: Rita Ora
+    bpm: 89
+    fits:
+    - stretch
+    - nedvarvning
+    genre:
+    - pop
+    song: Velvet Rope
+    spotifylink: spotify:track:2u6dedaqZJeVFvqCTA0Qdm
+    used: false
+- Song:
+    artist: Muse
+    bpm: 95
+    fits:
+    - styrka
+    - kondition
+    genre:
+    - rock
+    song: Propaganda
+    spotifylink: spotify:track:2sHLWUTiaBPGOIZinpqO4C
+    used: false
+- Song:
+    artist: Muse
+    bpm: 120
+    fits:
+    - kondition
+    - uppvärmning
+    - styrka
+    genre:
+    - rock
+    song: Supermassive Black Hole
+    spotifylink: spotify:track:3lPr8ghNDBLc2uZovNyLs9
+    used: false
+- Song:
+    artist: Ellie Goulding, Diplo, Swae Lee
+    bpm: 72
+    fits:
+    - styrka
+    song: Close To Me (with Diplo) (feat. Swae Lee)
+    spotifylink: spotify:track:5JEx7HbmvHQQswJCsoo9rA
+    used: false
+- Song:
+    artist: Years & Years
+    bpm: 104
+    fits:
+    - uppvärmning
+    song: If You're Over Me
+    spotifylink: spotify:track:01k24g94i1JvkFLQmVEdCd
+    used: false
+- Song:
+    artist: Deepend, Younotus, Martin Gallop
+    bpm: 120
+    fits:
+    - styrka
+    - stretch
+    song: Woke up in Bangkok
+    spotifylink: spotify:track:3x63A5hq4vldKE8hWIi1tE
+    used: false
+- Song:
+    artist: K-391, Alan Walker, Julie Bergan, SEUNGRI
+    bpm: 90
+    fits:
+    - styrka
+    - stretch
+    genre:
+    - electronic
+    song: Ignite (feat. SEUNGRI)
+    spotifylink: spotify:track:0UMLejbZXf7YVgnfxURvVr
+    used: false
+- Song:
+    artist: HUGEL, Amber Van Day
+    bpm: 124
+    fits:
+    - kondition
+    - styrka
+    song: WTF (feat. Amber Van Day)
+    spotifylink: spotify:track:0gn93i7HJt0calph67R5Wu
+    used: false
+- Song:
+    artist: Major Lazer, Tove Lo
+    bpm: 102
+    fits:
+    - styrka
+    - kondition
+    - uppvärmning
+    genre:
+    - pop
+    song: Blow That Smoke (feat. Tove Lo)
+    spotifylink: spotify:track:3GJx7wFMFL5VW8l7Eo0Tk1
+    used: false

@@ -136,7 +136,7 @@ class friskissongs:
         if song:
             self.allsongs[index].song = song
         if bpm:
-            self.allsongs[index].bpm = bpm
+            self.allsongs[index].bpm = int(bpm)
         if fits:
             self.allsongs[index].fits = []
             self.allsongs[index].addFits(fits)
