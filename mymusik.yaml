@@ -1205,3 +1205,20 @@
     song: Blow That Smoke (feat. Tove Lo)
     spotifylink: spotify:track:3GJx7wFMFL5VW8l7Eo0Tk1
     used: false
+- Song:
+    artist: Madcon, Ray Dalton
+    bpm: '123'
+    fits:
+    - kondition
+    - uppvärmning
+    song: Don't Worry (with Ray Dalton) - Radio Edit
+    spotifylink: spotify:track:63CSozvYUEudPp12679UVF
+    used: false
+- Song:
+    artist: Camila Cabello, Young Thug
+    bpm: '105'
+    fits:
+    - styrka
+    song: Havana
+    spotifylink: spotify:track:0ofbQMrRDsUaVKq2mGLEAb
+    used: false

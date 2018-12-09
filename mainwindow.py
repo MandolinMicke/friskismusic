@@ -130,11 +130,14 @@ class MainWindow():
         
         Button(searchwindow, text="Sök", width=15,height = 2, command = self.search).grid(row=0,column=0)
         Button(searchwindow, text="Lägg till låt", width=15,height = 2, command = self.add_song).grid(row=0,column=1)
-        Button(searchwindow, text="Stäng", width = 15, height = 2, command=frame.quit).grid(row=0, column=2)
+        Button(searchwindow, text="Välj från låtlista", width=15,height = 2, command = self.from_list).grid(row=0,column=2)
+        Button(searchwindow, text="Stäng", width = 15, height = 2, command=frame.quit).grid(row=0, column=3)
     
     def add_song(self):
         editSong(self)
-        
+    
+    def from_list(self):
+        PlaylistSearchWindow(self)
     def search(self):
         
         # create temporary vector of all songs                
@@ -180,11 +183,14 @@ class MainWindow():
 
 
 class editSong:
-    def __init__(self,masterwin,songindex = -1):
-        if songindex == -1:
+    def __init__(self,masterwin,songindex = None,url = None):
+        if songindex == None:
             self.new = True
         else:
             self.new = False
+            
+        
+            
         self.songindex = songindex
         self.masterwin = masterwin
         self.t = Toplevel(masterwin.master)
@@ -198,8 +204,7 @@ class editSong:
         self.spotifylink.focus_set()
                 
         self.spotifylink.delete(0, END)
-        self.spotifylink.insert(0, "") 
-        
+
         Button(self.t,text="Lägg till",width=10,height=1,command=self.spotifysearch).grid(row=1,column=1)
         
         lab = Label(self.t, text = "Artist" ,width=10,height=2)
@@ -257,6 +262,14 @@ class editSong:
         
         Button(self.t, text="Spara", width=15,height = 2, command=self.addAndSave).grid(row=10,column=0)
         Button(self.t, text="Avbryt", width=15,height = 2, command=self.t.destroy).grid(row=10,column=1)        
+        
+        if url != None:
+            print(url)
+            self.spotifylink.insert(0, url)
+            self.spotifysearch()
+        else:
+            self.spotifylink.insert(0, "") 
+#        spotify:user:mandolinmicke:playlist:4af5uqRL4aBjSA1pxGEaMm
         
     def addGenre(self):
         editVectorVariable(self,'genre')
@@ -365,80 +378,117 @@ class editVectorVariable:
 
 
       
-#class PlaylistSearchWindow:
-#    def __init__(self,masterwin,resultsongs):
-#        self.resultsongs = resultsongs
-#        self.masterwin = masterwin
-#        t = Toplevel(masterwin.master)
+class PlaylistSearchWindow:
+    def __init__(self,masterwin):
+        
+        self.masterwin = masterwin
+        t = Toplevel(masterwin.master)
 #        t.geometry(str(int(self.masterwin.width)) + 'x' + str(int(self.masterwin.height)))
-#        t.wm_title('Search Results')
-#        t.pack_propagate(0)
-#        self.resultlist = Listbox(t,height = 35,width = 50)
-#        self.resultlist.grid(row=1,rowspan=12,column=0,columnspan=2,sticky=W)
-#        scrollbar = Scrollbar(t, orient=VERTICAL)
-#        scrollbar.grid(row=1,rowspan=12,column=2,sticky=N+S+W)   
-#        self.resultlist.bind("<<ListboxSelect>>", self.songChosen)
-#        self.resultlist.config(yscrollcommand=scrollbar.set)
-#        scrollbar.config( command = self.resultlist.yview)
-#        for i in resultsongs:
-#            liststring = self.masterwin.fsongs.allsongs[i].artist + ' - ' + self.masterwin.fsongs.allsongs[i].song + ' - ' + str(self.masterwin.fsongs.allsongs[i].bpm)
-#            #print(liststring)
-#            self.resultlist.insert(END,liststring)
-#    
-#        Button(t, text="Edit", width=15,height = 2, command = self.addAndSave).grid(row=13,column=0)
-#        Button(t, text="Avbryt", width=15,height = 2, command=t.destroy).grid(row=13,column=1)
-#        
-#        self.disp_artist = StringVar()
-#        self.disp_song = StringVar()
-#        self.disp_bpm = StringVar()
-#        self.disp_fit = StringVar()
-#        self.disp_genre = StringVar()
-#        self.disp_spotifylink = StringVar()
-#        w = 20
-#        Label(t, text = "Artist" ,width=w,height=2).grid(row=1,column=3)    
-#        Label(t, textvariable = self.disp_artist ,width=w,height=2).grid(row=2,column=3)
-#        Label(t, text = "Song" ,width=w,height=2).grid(row=3,column=3)
-#        Label(t, textvariable = self.disp_song ,width=w,height=2).grid(row=4,column=3)
-#        Label(t, text = "BPM" ,width=w,height=2).grid(row=5,column=3)        
-#        Label(t, textvariable = self.disp_bpm ,width=w,height=2).grid(row=6,column=3)
-#        Label(t, text = "Block" ,width=w,height=2).grid(row=7,column=3)
-#        Label(t, textvariable = self.disp_fit ,width=w,height=2).grid(row=8,column=3)
-#        Label(t, text = "Genre" ,width=w,height=2).grid(row=9,column=3)
-#        Label(t, textvariable = self.disp_genre ,width=w,height=2).grid(row=10,column=3)
-#        Label(t, text = "Spotify Link" ,width=w,height=2).grid(row=11,column=3)    
-#        spotifylink = Label(t, textvariable=self.disp_spotifylink,width=w,height=2, fg="blue", cursor="hand2")
-#        spotifylink.grid(row=12,column=3)
-#        
-#        spotifylink.bind("<Button-1>", self.openBrowser)        
-#        
-#    def addAndSave(self):
-#        editSong(self.masterwin,self.resultsongs[self.resultlist.curselection()[0]])
-#
-#    def songChosen(self,event):
-#        widget = event.widget
-#        selection=widget.curselection()
-#        
-#        self.disp_artist.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].artist)
-#        self.disp_song.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].song)
-#        self.disp_bpm.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].bpm)
-#        self.disp_fit.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].getFits())
-#        self.disp_genre.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].getGenres())
-#        self.disp_spotifylink.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].spotifylink)
+        t.wm_title('Sånger från spellista')
+        t.pack_propagate(0)
+        self.fulllist = []
+        self.chosen = 0
+        self.tracks = []
+        self.resultlist = Listbox(t,height = 35,width = 50)
+        self.resultlist.grid(row=1,rowspan=12,column=0,columnspan=2,sticky=W)
+        scrollbar = Scrollbar(t, orient=VERTICAL)
+        scrollbar.grid(row=1,rowspan=12,column=2,sticky=N+S+W)   
+        self.resultlist.bind("<<ListboxSelect>>", self.songChosen)
+        self.resultlist.config(yscrollcommand=scrollbar.set)
+        scrollbar.config( command = self.resultlist.yview)
+           
+        Button(t, text="Lägg till", width=15,height = 2, command = self.addsong).grid(row=13,column=0)
+        Button(t, text="Avbryt", width=15,height = 2, command=t.destroy).grid(row=13,column=1)
+          
+        self.spotifylist = Entry(t,width = 40)
+        self.spotifylist.grid(row=1,column=3)        
+        self.spotifylist.focus_set()
+                
+        self.spotifylist.delete(0, END)
+        self.spotifylist.insert(0, "")
+        Button(t, text="Hämta Låtlista", width=15,height = 2, command=self.get_list).grid(row=2,column=3)
+                
+        self.disp_artist = StringVar()
+        self.disp_song = StringVar()
+        self.disp_bpm = StringVar()
+        self.disp_fit = StringVar()
+        self.disp_genre = StringVar()
+        self.disp_spotifylink = StringVar()
+        w = 20
+        
 
-#results = spotify.user_playlist_tracks('mandolinmicke','2tfOzafHixoE7xKUJS7fHV')
-#tracks = results['items']
-#
-#       # Loops to ensure I get every track of the playlist
-#while results['next']:
-#    results = spotify.next(results)
-#    tracks.extend(results['items'])
+        Label(t, text = "Artist" ,width=w,height=2).grid(row=3,column=3)    
+        Label(t, textvariable = self.disp_artist ,width=w,height=2).grid(row=4,column=3)
+        Label(t, text = "Song" ,width=w,height=2).grid(row=5,column=3)
+        Label(t, textvariable = self.disp_song ,width=w,height=2).grid(row=6,column=3)
+        Label(t, text = "BPM" ,width=w,height=2).grid(row=7,column=3)        
+        Label(t, textvariable = self.disp_bpm ,width=w,height=2).grid(row=8,column=3)
+        Label(t, text = "Genre" ,width=w,height=2).grid(row=9,column=3)
+        Label(t, textvariable = self.disp_genre ,width=w,height=2).grid(row=10,column=3)
+        Label(t, text = "Spotify Link" ,width=w,height=2).grid(row=11,column=3)    
+        spotifylink = Label(t, textvariable=self.disp_spotifylink,width=w,height=2, fg="blue", cursor="hand2")
+        spotifylink.grid(row=12,column=3)
+        
+        spotifylink.bind("<Button-1>", self.openBrowser)        
+
+    def addsong(self):
+#        print(self.tracks[self.chosen]['track']['uri'])
+        editSong(self.masterwin,None,self.tracks[self.chosen]['track']['uri'])
+        
+    def get_list(self):
+        spotifylist = self.spotifylist.get()
+        if ':' in spotifylist:
+            user = spotifylist.split(':')[2]
+            url = spotifylist.split(':')[4]
+        elif 'https://' in spotifylist:
+            user = spotifylist.split('/')[4]
+            url = spotifylist.split('/')[6]
+        else:
+            print('dont know this type')
+            
+        
+        
+        
+        results = spotify.user_playlist_tracks(user,url)
+        self.tracks = results['items']
+
+       # Loops to ensure I get every track of the playlist
+        while results['next']:
+            results = spotify.next(results)
+            self.tracks.extend(results['items'])    
+            
+        
+        self.fulllist = []
+        for tr in self.tracks:
+            artists = ' ,'.join([x['name'] for x in tr['track']['artists']])
+            song = tr['track']['name']
+            
+            liststring = artists + ' - ' + song + ' - ' + str(round(spotify.audio_features(tr['track']['uri'])[0]['tempo']))
+            self.fulllist.append(liststring)
+            self.resultlist.insert(END,liststring)      
+        
+        
+    def songChosen(self,event):
+        widget = event.widget
+        
+        selection=widget.curselection()
+        self.chosen = selection[0]
+        self.disp_artist.set(' ,'.join([x['name'] for x in self.tracks[self.chosen]['track']['artists']]))
+        self.disp_song.set(self.tracks[self.chosen]['track']['name'])
+        self.disp_bpm.set(self.fulllist[self.chosen].split(' - ')[2])
+#        self.disp_genre.set(self.masterwin.fsongs.allsongs[self.resultsongs[selection[0]]].getGenres())
+        self.disp_spotifylink.set(self.tracks[self.chosen]['track']['uri'])
+    def openBrowser(self,event):
+        webbrowser.open_new(event.widget.cget("text"))
+        
+
         
 class resultWindow:
     def __init__(self,masterwin,resultsongs):
         self.resultsongs = resultsongs
         self.masterwin = masterwin
         t = Toplevel(masterwin.master)
-        t.geometry(str(int(self.masterwin.width)) + 'x' + str(int(self.masterwin.height)))
+#        t.geometry(str(int(self.masterwin.width)) + 'x' + str(int(self.masterwin.height)))
         t.wm_title('Search Results')
         t.pack_propagate(0)
         self.resultlist = Listbox(t,height = 35,width = 50)
