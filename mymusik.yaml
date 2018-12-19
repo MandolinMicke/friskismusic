@@ -1222,3 +1222,12 @@
     song: Havana
     spotifylink: spotify:track:0ofbQMrRDsUaVKq2mGLEAb
     used: false
+- Song:
+    artist: Jess Glynne
+    bpm: '120'
+    fits:
+    - uppvärmning
+    - kondition
+    song: Don't Be So Hard On Yourself
+    spotifylink: spotify:track:0sUyqewVzwv0e5tK3hS6vJ
+    used: false
