@@ -113,7 +113,7 @@
     - stretch
     - styrka
     song: True Distaster
-    used: false
+    used: true
 - Song:
     artist: Lorde
     bpm: 84
@@ -201,7 +201,7 @@
     fits:
     - styrka
     song: Powerful
-    used: false
+    used: true
 - Song:
     artist: Swedish House Maffia
     bpm: 128
@@ -314,7 +314,7 @@
     fits:
     - kondition
     song: Sax
-    used: false
+    used: true
 - Song:
     artist: Jason Derulo, Nikki Minage
     bpm: 100
@@ -587,6 +587,9 @@
     bpm: 105
     fits:
     - kondition
+    - styrka
+    genre:
+    - hiphop
     song: Kattliv
     used: false
 - Song:
@@ -647,7 +650,7 @@
     song: Uptown Funk
     used: true
 - Song:
-    artist: Clean Bandit, Jess Glunne
+    artist: Clean Bandit, Jess Glynne
     bpm: 120
     fits:
     - kondition
@@ -709,7 +712,7 @@
     fits:
     - styrka
     song: Done Da Da
-    used: false
+    used: true
 - Song:
     artist: Linnea Henriksson, Toe Styrke
     bpm: 72
@@ -765,21 +768,21 @@
     fits:
     - styrka
     song: Rich
-    used: false
+    used: true
 - Song:
     artist: Anne-Marie
     bpm: 106
     fits:
     - uppvärmning
     song: Chiao Adios
-    used: false
+    used: true
 - Song:
     artist: Five Finger Death Punch
     bpm: 97
     fits:
     - kondition
     song: Sham Pain
-    used: false
+    used: true
 - Song:
     artist: Britney Spears
     bpm: 129
@@ -794,21 +797,21 @@
     - kondition
     - uppvärmning
     song: Toes
-    used: false
+    used: true
 - Song:
     artist: CHVRCHES
     bpm: 144
     fits:
     - kondition
     song: Graves
-    used: false
+    used: true
 - Song:
     artist: Norlie & KKV, estrad
     bpm: 87
     fits:
     - nedvarvning
     song: Mer för varandra
-    used: false
+    used: true
 - Song:
     artist: Klingande
     bpm: 124
@@ -829,7 +832,7 @@
     fits:
     - kondition
     song: Aftergold
-    used: false
+    used: true
 - Song:
     artist: Major Lazer, Amber of Dirty Projectors
     bpm: 44
@@ -866,14 +869,14 @@
     fits:
     - löpning
     song: Execution Song
-    used: false
+    used: true
 - Song:
     artist: Hello Saferide
     bpm: 52
     fits:
     - stretch
     song: Rocky
-    used: false
+    used: true
 - Song:
     artist: Elle King
     bpm: 72
@@ -893,7 +896,7 @@
     - electronic
     song: Instan Crush
     spotifylink: https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6?si=aO_2BhZzTCaWeph1JAM4dw
-    used: false
+    used: true
 - Song:
     artist: Foo Fighters
     bpm: 159
@@ -987,7 +990,7 @@
     - rock
     song: Zombie
     spotifylink: https://open.spotify.com/track/1vNoA9F5ASnlBISFekDmg3?si=ExjLBr90QIyvaq8hXANz4g
-    used: false
+    used: true
 - Song:
     artist: First Aid Kit
     bpm: 56
@@ -1207,7 +1210,7 @@
     used: false
 - Song:
     artist: Madcon, Ray Dalton
-    bpm: '123'
+    bpm: 123
     fits:
     - kondition
     - uppvärmning
@@ -1216,7 +1219,7 @@
     used: false
 - Song:
     artist: Camila Cabello, Young Thug
-    bpm: '105'
+    bpm: 105
     fits:
     - styrka
     song: Havana
@@ -1224,10 +1227,40 @@
     used: false
 - Song:
     artist: Jess Glynne
-    bpm: '120'
+    bpm: 120
     fits:
     - uppvärmning
     - kondition
     song: Don't Be So Hard On Yourself
     spotifylink: spotify:track:0sUyqewVzwv0e5tK3hS6vJ
+    used: false
+- Song:
+    artist: Martin Solveig, Dragonette
+    bpm: 130
+    song: Hello
+    spotifylink: https://open.spotify.com/track/54fyVsVauzPwruLvGnBe3i?si=u7gtQSGdR3OLvUWUFbO_2w
+    used: false
+- Song:
+    artist: Fall Out Boy
+    bpm: 138
+    fits:
+    - kondition
+    song: The Phoenix
+    spotifylink: spotify:track:7jwDuO7UZvWs77KNj9HbvF
+    used: false
+- Song:
+    artist: Rihanna
+    bpm: 115
+    song: Woo
+    spotifylink: spotify:track:3HQcsqRjRdruUjkbDSgmVF
+    used: false
+- Song:
+    artist: Ghost
+    bpm: 92
+    fits:
+    - kondition
+    genre:
+    - metal
+    song: Faith
+    spotifylink: spotify:track:5xDakgblcGS1kymzemItsE
     used: false

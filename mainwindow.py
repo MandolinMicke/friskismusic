@@ -269,7 +269,6 @@ class editSong:
             self.spotifysearch()
         else:
             self.spotifylink.insert(0, "") 
-#        spotify:user:mandolinmicke:playlist:4af5uqRL4aBjSA1pxGEaMm
         
     def addGenre(self):
         editVectorVariable(self,'genre')
@@ -301,26 +300,26 @@ class editSong:
         spotifylink = None
         used = False
 
-
         if self.artist != "":
             artist = self.artist.get()
         if self.song != "":
             song = self.song.get()
         if self.bpm != "":
-            bpm = self.bpm.get()
+            bpm = int(self.bpm.get())
         if self.spotifylink != "":
             spotifylink = self.spotifylink.get()
-        if self.isused == "1":
+        if self.isused.get() == "1":
             used = True
         if len(self.chosen_genres) >0:
             genre = self.chosen_genres
         if len(self.chosen_blocks) > 0:
             fits = self.chosen_blocks
+        
         if self.new:
             self.masterwin.fsongs.addSong(artist,song,bpm,fits,genre,spotifylink,used)
         else:
             self.masterwin.fsongs.editSong(self.songindex,artist,song,bpm,fits,genre,spotifylink,used)
-        
+            
         self.masterwin.fsongs.saveYaml(self.masterwin.songfile)
         self.t.destroy()
                 
@@ -491,7 +490,7 @@ class resultWindow:
 #        t.geometry(str(int(self.masterwin.width)) + 'x' + str(int(self.masterwin.height)))
         t.wm_title('Search Results')
         t.pack_propagate(0)
-        self.resultlist = Listbox(t,height = 35,width = 50)
+        self.resultlist = Listbox(t,height = 35,width = 70)
         self.resultlist.grid(row=1,rowspan=12,column=0,columnspan=2,sticky=W)
         scrollbar = Scrollbar(t, orient=VERTICAL)
         scrollbar.grid(row=1,rowspan=12,column=2,sticky=N+S+W)   
