@@ -587,6 +587,9 @@
     bpm: 105
     fits:
     - kondition
+    - styrka
+    genre:
+    - hiphop
     song: Kattliv
     used: false
 - Song:
@@ -779,7 +782,7 @@
     fits:
     - kondition
     song: Sham Pain
-    used: false
+    used: true
 - Song:
     artist: Britney Spears
     bpm: 129
@@ -1367,6 +1370,20 @@
     spotifylink: spotify:track:4PkIDTPGedm0enzdvilLNd
     used: false
 - Song:
+    artist: Martin Solveig, Dragonette
+    bpm: 130
+    song: Hello
+    spotifylink: https://open.spotify.com/track/54fyVsVauzPwruLvGnBe3i?si=u7gtQSGdR3OLvUWUFbO_2w
+    used: false
+- Song:
+    artist: Fall Out Boy
+    bpm: 138
+    fits:
+    - kondition
+    song: The Phoenix
+    spotifylink: spotify:track:7jwDuO7UZvWs77KNj9HbvF
+    used: false
+- Song:
     artist: Rihanna
     bpm: 115
     fits:
@@ -1409,4 +1426,14 @@
     - pop
     song: Meteorites
     spotifylink: spotify:track:3zPy9zdj9wyitlZhDP5i30
+    used: false
+- Song:
+    artist: Ghost
+    bpm: 92
+    fits:
+    - kondition
+    genre:
+    - metal
+    song: Faith
+    spotifylink: spotify:track:5xDakgblcGS1kymzemItsE
     used: false
