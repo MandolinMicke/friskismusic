@@ -4,7 +4,7 @@
     fits:
     - styrka
     song: Down Side of ME
-    used: false
+    used: true
 - Song:
     artist: REM
     bpm: 52
@@ -113,7 +113,7 @@
     - stretch
     - styrka
     song: True Distaster
-    used: false
+    used: true
 - Song:
     artist: Lorde
     bpm: 84
@@ -135,7 +135,7 @@
     fits:
     - kondition
     song: Timber
-    used: false
+    used: true
 - Song:
     artist: Cashmere Cat
     bpm: 117
@@ -201,7 +201,7 @@
     fits:
     - styrka
     song: Powerful
-    used: false
+    used: true
 - Song:
     artist: Swedish House Maffia
     bpm: 128
@@ -314,14 +314,14 @@
     fits:
     - kondition
     song: Sax
-    used: false
+    used: true
 - Song:
     artist: Jason Derulo, Nikki Minage
     bpm: 100
     fits:
     - kondition
     song: Swalla
-    used: false
+    used: true
 - Song:
     artist: Pitbull
     bpm: 124
@@ -637,7 +637,7 @@
     fits:
     - styrka
     song: Same Old Love
-    used: false
+    used: true
 - Song:
     artist: Mark Ronson, Bruno Mars
     bpm: 114
@@ -647,7 +647,7 @@
     song: Uptown Funk
     used: true
 - Song:
-    artist: Clean Bandit, Jess Glunne
+    artist: Clean Bandit, Jess Glynne
     bpm: 120
     fits:
     - kondition
@@ -659,7 +659,7 @@
     fits:
     - kondition
     song: No Diggity
-    used: false
+    used: true
 - Song:
     artist: The Score
     bpm: 150
@@ -709,7 +709,7 @@
     fits:
     - styrka
     song: Done Da Da
-    used: false
+    used: true
 - Song:
     artist: Linnea Henriksson, Toe Styrke
     bpm: 72
@@ -765,14 +765,14 @@
     fits:
     - styrka
     song: Rich
-    used: false
+    used: true
 - Song:
     artist: Anne-Marie
     bpm: 106
     fits:
     - uppvärmning
     song: Chiao Adios
-    used: false
+    used: true
 - Song:
     artist: Five Finger Death Punch
     bpm: 97
@@ -794,21 +794,21 @@
     - kondition
     - uppvärmning
     song: Toes
-    used: false
+    used: true
 - Song:
     artist: CHVRCHES
     bpm: 144
     fits:
     - kondition
     song: Graves
-    used: false
+    used: true
 - Song:
     artist: Norlie & KKV, estrad
     bpm: 87
     fits:
     - nedvarvning
     song: Mer för varandra
-    used: false
+    used: true
 - Song:
     artist: Klingande
     bpm: 124
@@ -829,7 +829,7 @@
     fits:
     - kondition
     song: Aftergold
-    used: false
+    used: true
 - Song:
     artist: Major Lazer, Amber of Dirty Projectors
     bpm: 44
@@ -866,14 +866,14 @@
     fits:
     - löpning
     song: Execution Song
-    used: false
+    used: true
 - Song:
     artist: Hello Saferide
     bpm: 52
     fits:
     - stretch
     song: Rocky
-    used: false
+    used: true
 - Song:
     artist: Elle King
     bpm: 72
@@ -893,7 +893,7 @@
     - electronic
     song: Instan Crush
     spotifylink: https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6?si=aO_2BhZzTCaWeph1JAM4dw
-    used: false
+    used: true
 - Song:
     artist: Foo Fighters
     bpm: 159
@@ -913,7 +913,7 @@
     - metal
     song: The Pretender
     spotifylink: https://open.spotify.com/track/7x8dCjCr0x6x2lXKujYD34?si=xulOfCrYRaCdR0MpSagPlw
-    used: false
+    used: true
 - Song:
     artist: Foo Fighters
     bpm: 78
@@ -987,7 +987,7 @@
     - rock
     song: Zombie
     spotifylink: https://open.spotify.com/track/1vNoA9F5ASnlBISFekDmg3?si=ExjLBr90QIyvaq8hXANz4g
-    used: false
+    used: true
 - Song:
     artist: First Aid Kit
     bpm: 56
@@ -1075,7 +1075,7 @@
     - stretch
     song: Kicks
     spotifylink: spotify:track:7pMqFPtr3c3xa3LBsLPynf
-    used: false
+    used: true
 - Song:
     artist: Ghost
     bpm: 130
@@ -1113,7 +1113,7 @@
     - pop
     song: Sweet but Psycho
     spotifylink: spotify:track:25sgk305KZfyuqVBQIahim
-    used: false
+    used: true
 - Song:
     artist: Rita Ora
     bpm: 89
@@ -1135,7 +1135,7 @@
     - rock
     song: Propaganda
     spotifylink: spotify:track:2sHLWUTiaBPGOIZinpqO4C
-    used: false
+    used: true
 - Song:
     artist: Muse
     bpm: 120
@@ -1155,7 +1155,7 @@
     - styrka
     song: Close To Me (with Diplo) (feat. Swae Lee)
     spotifylink: spotify:track:5JEx7HbmvHQQswJCsoo9rA
-    used: false
+    used: true
 - Song:
     artist: Years & Years
     bpm: 104
@@ -1163,7 +1163,7 @@
     - uppvärmning
     song: If You're Over Me
     spotifylink: spotify:track:01k24g94i1JvkFLQmVEdCd
-    used: false
+    used: true
 - Song:
     artist: Deepend, Younotus, Martin Gallop
     bpm: 120
@@ -1183,7 +1183,7 @@
     - electronic
     song: Ignite (feat. SEUNGRI)
     spotifylink: spotify:track:0UMLejbZXf7YVgnfxURvVr
-    used: false
+    used: true
 - Song:
     artist: HUGEL, Amber Van Day
     bpm: 124
@@ -1192,7 +1192,7 @@
     - styrka
     song: WTF (feat. Amber Van Day)
     spotifylink: spotify:track:0gn93i7HJt0calph67R5Wu
-    used: false
+    used: true
 - Song:
     artist: Major Lazer, Tove Lo
     bpm: 102
@@ -1204,19 +1204,19 @@
     - pop
     song: Blow That Smoke (feat. Tove Lo)
     spotifylink: spotify:track:3GJx7wFMFL5VW8l7Eo0Tk1
-    used: false
+    used: true
 - Song:
     artist: Madcon, Ray Dalton
-    bpm: '123'
+    bpm: 123
     fits:
     - kondition
     - uppvärmning
     song: Don't Worry (with Ray Dalton) - Radio Edit
     spotifylink: spotify:track:63CSozvYUEudPp12679UVF
-    used: false
+    used: true
 - Song:
     artist: Camila Cabello, Young Thug
-    bpm: '105'
+    bpm: 105
     fits:
     - styrka
     song: Havana
@@ -1224,10 +1224,189 @@
     used: false
 - Song:
     artist: Jess Glynne
-    bpm: '120'
+    bpm: 120
     fits:
     - uppvärmning
     - kondition
     song: Don't Be So Hard On Yourself
     spotifylink: spotify:track:0sUyqewVzwv0e5tK3hS6vJ
+    used: false
+- Song:
+    artist: R.E.M.
+    bpm: 82
+    fits:
+    - stretch
+    song: Hairshirt
+    spotifylink: spotify:track:3FOdTqGbHgouiX04gq4Sdz
+    used: true
+- Song:
+    artist: Scott Bradlee's Postmodern Jukebox, Haley Reinhart
+    bpm: 60
+    song: Creep
+    spotifylink: spotify:track:3AOcpwgy3V2Fwg7B8PZfKl
+    used: true
+- Song:
+    artist: Sofia Reyes, Rita Ora, Anitta
+    bpm: 100
+    fits:
+    - kondition
+    - uppvärmning
+    genre:
+    - pop
+    song: R.I.P. (feat. Rita Ora & Anitta)
+    spotifylink: spotify:track:6JqpFboOH2bq9pzaYbkKBn
+    used: false
+- Song:
+    artist: A Touch Of Class, Pete Konemann
+    bpm: 132
+    fits:
+    - kondition
+    genre:
+    - 90s
+    song: Around the World (La La La La La) - Radio Version
+    spotifylink: spotify:track:0IbTukfZdB91gclEXUQZkH
+    used: false
+- Song:
+    artist: AWOLNATION
+    bpm: 119
+    fits:
+    - styrka
+    genre:
+    - electronic
+    - pop
+    song: Sail
+    spotifylink: spotify:track:5N7d8uxMeuO4HdncbkuhSB
+    used: false
+- Song:
+    artist: Ally Brooke, Tyga
+    bpm: 109
+    fits:
+    - styrka
+    - stretch
+    genre:
+    - pop
+    song: Low Key (feat. Tyga)
+    spotifylink: spotify:track:7xhvCzIguRfyfQyGrnWuVn
+    used: false
+- Song:
+    artist: Tove Lo
+    bpm: 102
+    fits:
+    - styrka
+    genre:
+    - pop
+    song: Cool Girl
+    spotifylink: spotify:track:5dKyZWlgjWw1oJgLa4GCZD
+    used: false
+- Song:
+    artist: Clara Mae
+    bpm: 100
+    fits:
+    - styrka
+    - stretch
+    genre:
+    - pop
+    song: I Forgot
+    spotifylink: spotify:track:6p3MquVmVPXgH5WrRYoTL8
+    used: false
+- Song:
+    artist: Jonas Blue, Theresa Rex
+    bpm: 102
+    fits:
+    - kondition
+    - uppvärmning
+    genre:
+    - pop
+    song: What I Like About You (feat. Theresa Rex)
+    spotifylink: spotify:track:4NSW0Km5ZG60L8FthUebPJ
+    used: false
+- Song:
+    artist: Marshmello, CHVRCHES
+    bpm: 100
+    fits:
+    - styrka
+    - stretch
+    - uppvärmning
+    genre:
+    - electronic
+    - pop
+    song: Here With Me
+    spotifylink: spotify:track:5icOoE6VgqFKohjWWNp0Ac
+    used: false
+- Song:
+    artist: Baker Grace
+    bpm: 170
+    fits:
+    - styrka
+    - nedvarvning
+    genre:
+    - pop
+    song: Numb
+    spotifylink: spotify:track:6bFaDrdNesocJTk6iMy0fa
+    used: false
+- Song:
+    artist: Fröken Elvis
+    bpm: 162
+    fits:
+    - stretch
+    - nedvarvning
+    genre:
+    - svenskt
+    song: I betongen
+    spotifylink: spotify:track:0UDf4HjJBQwMcwJamkHqy6
+    used: false
+- Song:
+    artist: Ellie Goulding
+    bpm: 110
+    fits:
+    - styrka
+    - uppvärmning
+    genre:
+    - pop
+    song: Sixteen
+    spotifylink: spotify:track:4PkIDTPGedm0enzdvilLNd
+    used: false
+- Song:
+    artist: Rihanna
+    bpm: 115
+    fits:
+    - styrka
+    genre:
+    - pop
+    song: Woo
+    spotifylink: spotify:track:3HQcsqRjRdruUjkbDSgmVF
+    used: false
+- Song:
+    artist: Panic! At The Disco
+    bpm: 82
+    fits:
+    - styrka
+    genre:
+    - rock
+    - pop
+    song: High Hopes
+    spotifylink: spotify:track:2djdCbLj1pzRmrDNe7PkW2
+    used: false
+- Song:
+    artist: Lights
+    bpm: 127
+    fits:
+    - kondition
+    - uppvärmning
+    genre:
+    - pop
+    song: Same Sea
+    spotifylink: spotify:track:3iWQuCrKxuA4lGipGlqce0
+    used: false
+- Song:
+    artist: Lights
+    bpm: 90
+    fits:
+    - styrka
+    - stretch
+    - nedvarvning
+    genre:
+    - pop
+    song: Meteorites
+    spotifylink: spotify:track:3zPy9zdj9wyitlZhDP5i30
     used: false

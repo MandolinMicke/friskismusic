@@ -70,7 +70,7 @@ class MainWindow():
 
         self.showused = StringVar()
         check = Checkbutton(bpmwin,text = 'Visa använda', variable = self.showused)
-        check.grid(row=0,column=2)    
+        check.grid(row=0,column=2)
         check.deselect()
 
         self.doublebpm = StringVar()
@@ -307,10 +307,10 @@ class editSong:
         if self.song != "":
             song = self.song.get()
         if self.bpm != "":
-            bpm = self.bpm.get()
+            bpm = int(self.bpm.get())
         if self.spotifylink != "":
             spotifylink = self.spotifylink.get()
-        if self.isused == "1":
+        if self.isused.get() == "1":
             used = True
         if len(self.chosen_genres) >0:
             genre = self.chosen_genres
