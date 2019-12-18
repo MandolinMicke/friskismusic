@@ -121,7 +121,7 @@
     - styrka
     - stretch
     song: Royals
-    used: false
+    used: true
 - Song:
     artist: Galantis
     bpm: 127
@@ -497,7 +497,7 @@
     fits:
     - kondition
     song: Dynamite
-    used: false
+    used: true
 - Song:
     artist: Nelly Furtado, Timbaland
     bpm: 57
@@ -698,7 +698,7 @@
     fits:
     - styrka
     song: Numbers
-    used: false
+    used: true
 - Song:
     artist: Tiësto, KSHMR
     bpm: 128
@@ -761,7 +761,7 @@
     fits:
     - styrka
     song: Sway
-    used: false
+    used: true
 - Song:
     artist: MAYKA
     bpm: 60
@@ -886,7 +886,7 @@
     - pop
     song: Exs & Ohs
     spotifylink: https://open.spotify.com/track/70eDxAyAraNTiD6lx2ZEnH?si=BAUq_r4HRL6KXSZQZ0TfoQ
-    used: false
+    used: true
 - Song:
     artist: Daft Punk, Julian Casablancas
     bpm: 55
@@ -926,7 +926,7 @@
     - metal
     song: My Hero
     spotifylink: https://open.spotify.com/track/4dVbhS6OiYvFikshyaQaCN?si=z4gmvsKfS5aakrZ0HWTiqw
-    used: false
+    used: true
 - Song:
     artist: Foo Fighters
     bpm: 174
@@ -1020,7 +1020,7 @@
     - uppvärmning
     song: S&M
     spotifylink: spotify:track:0C4ejWmOTMv8vuYj85mf8m
-    used: false
+    used: true
 - Song:
     artist: Ellie Goulding
     bpm: 77
@@ -1045,7 +1045,7 @@
     - styrka
     song: In My Mind
     spotifylink: spotify:track:0E9ZjEAyAwOXZ7wJC0PD33
-    used: false
+    used: true
 - Song:
     artist: David Guetta, Anne-Marie
     bpm: 128
@@ -1105,7 +1105,7 @@
     - löpning
     song: Crash
     spotifylink: spotify:track:5leOIDX4YmuHJSADKQmwTw
-    used: false
+    used: true
 - Song:
     artist: Ava Max
     bpm: 133
@@ -1233,7 +1233,7 @@
     - kondition
     song: Don't Be So Hard On Yourself
     spotifylink: spotify:track:0sUyqewVzwv0e5tK3hS6vJ
-    used: false
+    used: true
 - Song:
     artist: R.E.M.
     bpm: 82
@@ -1258,7 +1258,7 @@
     - pop
     song: R.I.P. (feat. Rita Ora & Anitta)
     spotifylink: spotify:track:6JqpFboOH2bq9pzaYbkKBn
-    used: false
+    used: true
 - Song:
     artist: A Touch Of Class, Pete Konemann
     bpm: 132
@@ -1346,7 +1346,7 @@
     - pop
     song: Numb
     spotifylink: spotify:track:6bFaDrdNesocJTk6iMy0fa
-    used: false
+    used: true
 - Song:
     artist: Fröken Elvis
     bpm: 162
@@ -1357,7 +1357,7 @@
     - svenskt
     song: I betongen
     spotifylink: spotify:track:0UDf4HjJBQwMcwJamkHqy6
-    used: false
+    used: true
 - Song:
     artist: Ellie Goulding
     bpm: 110
@@ -1368,7 +1368,7 @@
     - pop
     song: Sixteen
     spotifylink: spotify:track:4PkIDTPGedm0enzdvilLNd
-    used: false
+    used: true
 - Song:
     artist: Martin Solveig, Dragonette
     bpm: 130
@@ -1382,7 +1382,7 @@
     - kondition
     song: The Phoenix
     spotifylink: spotify:track:7jwDuO7UZvWs77KNj9HbvF
-    used: false
+    used: true
 - Song:
     artist: Rihanna
     bpm: 115
@@ -1426,7 +1426,7 @@
     - pop
     song: Meteorites
     spotifylink: spotify:track:3zPy9zdj9wyitlZhDP5i30
-    used: false
+    used: true
 - Song:
     artist: Ghost
     bpm: 92
