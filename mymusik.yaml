@@ -1370,10 +1370,14 @@
     spotifylink: spotify:track:4PkIDTPGedm0enzdvilLNd
     used: true
 - Song:
-    artist: Martin Solveig, Dragonette
-    bpm: 130
-    song: Hello
-    spotifylink: https://open.spotify.com/track/54fyVsVauzPwruLvGnBe3i?si=u7gtQSGdR3OLvUWUFbO_2w
+    artist: Lady Aqua
+    bpm: 128
+    fits:
+    - kondition
+    genre:
+    - pop
+    song: Hello - I Just Came to Say Hello
+    spotifylink: spotify:track:3p8VswhoOGRimT0mMsgTrQ
     used: false
 - Song:
     artist: Fall Out Boy
@@ -1436,4 +1440,220 @@
     - metal
     song: Faith
     spotifylink: spotify:track:5xDakgblcGS1kymzemItsE
+    used: false
+- Song:
+    artist: Tiësto, Jonas Blue, Rita Ora
+    bpm: 115
+    fits:
+    - kondition
+    - styrka
+    - uppvärmning
+    genre:
+    - pop
+    song: Ritual
+    spotifylink: spotify:track:3M9Apu4OZfylLTFKvgEtKa
+    used: false
+- Song:
+    artist: Linda Sundblad
+    bpm: 118
+    fits:
+    - styrka
+    genre:
+    - pop
+    - svenskt
+    song: S.O.S ( Stefan Storm Remix)
+    spotifylink: spotify:track:7uvytUO7qYvdhAYCQKNZTz
+    used: false
+- Song:
+    artist: Ava Max
+    bpm: 130
+    fits:
+    - kondition
+    genre:
+    - pop
+    song: So Am I
+    spotifylink: spotify:track:0uUNN1nSoUx1A4fkDCWDQ7
+    used: false
+- Song:
+    artist: Nea
+    bpm: 105
+    fits:
+    - styrka
+    - stretch
+    - nedvarvning
+    genre:
+    - pop
+    song: Some Say
+    spotifylink: spotify:track:4poybupy26pTWPr9zY1i7h
+    used: false
+- Song:
+    artist: Grimes, HANA
+    bpm: 108
+    fits:
+    - kondition
+    - styrka
+    genre:
+    - pop
+    - electronic
+    song: We Appreciate Power
+    spotifylink: spotify:track:5b0DJPEs6UUlDmpZuoDD2X
+    used: false
+- Song:
+    artist: Halsey
+    bpm: 92
+    fits:
+    - stretch
+    - nedvarvning
+    genre:
+    - pop
+    song: Graveyard
+    spotifylink: spotify:track:6V9fHiv84WlVTg7CSnIVY2
+    used: false
+- Song:
+    artist: 5 Seconds of Summer
+    bpm: 139
+    fits:
+    - kondition
+    genre:
+    - rock
+    song: Teeth
+    spotifylink: spotify:track:26wLOs3ZuHJa2Ihhx6QIE6
+    used: false
+- Song:
+    artist: Paces, Yorke
+    bpm: 90
+    fits:
+    - styrka
+    - stretch
+    genre:
+    - pop
+    song: Vertigo
+    spotifylink: spotify:track:1Kn4KYXfD9HVXnL9gjZwcU
+    used: false
+- Song:
+    artist: Gryffin, Maia Wright
+    bpm: 123
+    fits:
+    - uppvärmning
+    genre:
+    - pop
+    song: Body Back (feat. Maia Wright)
+    spotifylink: spotify:track:1z1XegUChLLQfcbtIK8ABn
+    used: false
+- Song:
+    artist: Tungevaag & Raaban, A7S
+    bpm: 125
+    fits:
+    - kondition
+    genre:
+    - pop
+    song: Hey Baby (feat. A7S)
+    spotifylink: spotify:track:6SzbkrY8OH3fHlLwdni592
+    used: false
+- Song:
+    artist: Melody Club
+    bpm: 144
+    fits:
+    - kondition
+    genre:
+    - pop
+    song: The Hunter
+    spotifylink: spotify:track:549tnPs3LaRA0rJ6jPvzGy
+    used: false
+- Song:
+    artist: Melody Club
+    bpm: 137
+    genre:
+    - pop
+    song: Destiny Calling
+    spotifylink: spotify:track:4NEKNWD1aWxdm5eaznVulb
+    used: false
+- Song:
+    artist: Melody Club
+    bpm: 110
+    fits:
+    - styrka
+    genre:
+    - pop
+    - indie
+    song: Fever Fever
+    spotifylink: spotify:track:6zTABzmPL5AMGsPcOZkPIB
+    used: false
+- Song:
+    artist: Helen Sjöholm, Stefan Nilsson
+    bpm: 88
+    fits:
+    - stretch
+    - nedvarvning
+    genre:
+    - svenskt
+    song: Gabriellas sång
+    spotifylink: spotify:track:2UL2wKmovIqf0GpqZ2Irjn
+    used: false
+- Song:
+    artist: Helen Sjöholm, Anna Stadling
+    bpm: 77
+    fits:
+    - stretch
+    - nedvarvning
+    genre:
+    - svenskt
+    song: Som en bro över mörka vatten
+    spotifylink: spotify:track:4EoXfgWZqB5ngWmihSDKbP
+    used: false
+- Song:
+    artist: Miss Li
+    bpm: 88
+    fits:
+    - styrka
+    - nedvarvning
+    genre:
+    - pop
+    - svenskt
+    song: Lev nu dö sen
+    spotifylink: spotify:track:6HJasLoTKvxglAMQH8nPcD
+    used: false
+- Song:
+    artist: The Score
+    bpm: 69
+    fits:
+    - styrka
+    genre:
+    - rock
+    song: The Fear
+    spotifylink: spotify:track:2cppGOIz0cuDnKoGzrDsJQ
+    used: false
+- Song:
+    artist: Halestorm
+    bpm: 124
+    fits:
+    - uppvärmning
+    - kondition
+    genre:
+    - rock
+    song: Bad Romance - EP Version
+    spotifylink: spotify:track:0n3sHHfdOq6Awix3JPe3xl
+    used: false
+- Song:
+    artist: Lauv, Anne-Marie
+    bpm: 95
+    fits:
+    - uppvärmning
+    - nedvarvning
+    genre:
+    - pop
+    song: 'fuck, i''m lonely (with Anne-Marie) - from “13 Reasons Why: Season 3”'
+    spotifylink: spotify:track:4wopYJ5wpYOM6ogm2Jugnw
+    used: false
+- Song:
+    artist: Clean Bandit, Sean Paul, Anne-Marie
+    bpm: 102
+    fits:
+    - styrka
+    - uppvärmning
+    - kondition
+    genre:
+    - pop
+    song: Rockabye (feat. Sean Paul & Anne-Marie)
+    spotifylink: spotify:track:3fvY2U1AzW0diYF0hnBbKt
     used: false

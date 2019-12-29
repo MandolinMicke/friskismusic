@@ -436,19 +436,17 @@ class PlaylistSearchWindow:
         
     def get_list(self):
         spotifylist = self.spotifylist.get()
-        if ':' in spotifylist:
-            user = spotifylist.split(':')[2]
-            url = spotifylist.split(':')[4]
-        elif 'https://' in spotifylist:
-            user = spotifylist.split('/')[4]
-            url = spotifylist.split('/')[6]
+
+        if 'https://' in spotifylist:
+            # user = spotifylist.split(':')[2]
+            url = spotifylist.split('/')[4]
+        elif ':' in spotifylist:
+            # user = spotifylist.split('/')[4]
+            url = spotifylist.split(':')[2]
         else:
             print('dont know this type')
             
-        
-        
-        
-        results = spotify.user_playlist_tracks(user,url)
+        results = spotify.user_playlist_tracks(config.client_id,url)
         self.tracks = results['items']
 
        # Loops to ensure I get every track of the playlist
