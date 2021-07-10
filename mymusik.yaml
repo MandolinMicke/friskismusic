@@ -34,10 +34,10 @@
     song: Radio Nowhere
     used: false
 - Song:
-    artist: Timo R‰is‰nen
+    artist: Timo R√§is√§nen
     bpm: 168
     fits:
-    - lˆpning
+    - l√∂pning
     song: Fear no Darkness, Promised Child
     used: false
 - Song:
@@ -45,14 +45,14 @@
     bpm: 104
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     song: Call on Me - Ryan Riback remix
     used: false
 - Song:
     artist: Madden
     bpm: 124
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Golden Light
     used: false
 - Song:
@@ -66,7 +66,7 @@
     artist: State of sound
     bpm: 116
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Wake Up Where you are
     used: false
 - Song:
@@ -74,7 +74,7 @@
     bpm: 125
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     song: Somewhere new
     used: false
 - Song:
@@ -141,7 +141,7 @@
     bpm: 117
     fits:
     - styrka
-    - uppv‰rmning
+    - uppv√§rmning
     song: Trust Nobody
     used: false
 - Song:
@@ -191,7 +191,7 @@
     artist: DJ Katch, Hayley
     bpm: 118
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - kondition
     song: Lights out
     used: false
@@ -213,7 +213,7 @@
     artist: Olivia Holt
     bpm: 100
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: History
     used: true
 - Song:
@@ -227,7 +227,7 @@
     artist: Bakermat
     bpm: 128
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - kondition
     song: Baby
     used: true
@@ -242,14 +242,14 @@
     artist: Hot Shade
     bpm: 122
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Touching you again
     used: false
 - Song:
     artist: Martin Jensen
     bpm: 116
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Solo Dance
     used: false
 - Song:
@@ -292,7 +292,7 @@
     bpm: 69
     fits:
     - styrka
-    song: Flickan och KrÂkan
+    song: Flickan och Kr√§kan
     used: false
 - Song:
     artist: Imagine Dragon
@@ -351,10 +351,10 @@
     song: Opps.. I did it again
     used: false
 - Song:
-    artist: Timo R‰is‰nen
+    artist: Timo R√§is√§nen
     bpm: 174
     fits:
-    - lˆpning
+    - l√∂pning
     song: About you now
     used: true
 - Song:
@@ -368,7 +368,7 @@
     artist: Pandora
     bpm: 108
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Tell the world
     used: false
 - Song:
@@ -389,7 +389,7 @@
     artist: Timbuktu
     bpm: 110
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Resten av ditt liv
     used: false
 - Song:
@@ -467,7 +467,7 @@
     artist: Ace of Base
     bpm: 100
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: The Sign
     used: false
 - Song:
@@ -482,13 +482,13 @@
     bpm: 113
     fits:
     - kondition
-    song: Jag trodde ‰nglarna fanns
+    song: Jag trodde √§nglarna fanns
     used: false
 - Song:
     artist: The Chainsmokers
     bpm: 100
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Paris
     used: false
 - Song:
@@ -509,7 +509,7 @@
     artist: Nelly Furtado
     bpm: 112
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Powerless
     used: false
 - Song:
@@ -621,7 +621,7 @@
     song: Mistakes
     used: true
 - Song:
-    artist: M÷
+    artist: M√§
     bpm: 104
     fits:
     - styrka
@@ -631,7 +631,7 @@
     artist: Alan Walker
     bpm: 98
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: All Falls Down
     used: true
 - Song:
@@ -645,7 +645,7 @@
     artist: Mark Ronson, Bruno Mars
     bpm: 114
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - kondition
     song: Uptown Funk
     used: true
@@ -667,7 +667,7 @@
     artist: The Score
     bpm: 150
     fits:
-    - lˆpning
+    - l√∂pning
     song: Oh My Love
     used: false
 - Song:
@@ -700,7 +700,7 @@
     song: Numbers
     used: true
 - Song:
-    artist: TiÎsto, KSHMR
+    artist: Ti√§sto, KSHMR
     bpm: 128
     fits:
     - kondition
@@ -724,14 +724,14 @@
     artist: HOFFMAESTRO
     bpm: 160
     fits:
-    - lˆpning
+    - l√∂pning
     song: Highway man
     used: true
 - Song:
     artist: Veronica Maggio
     bpm: 150
     fits:
-    - lˆpning
+    - l√∂pning
     song: Jag kommer
     used: false
 - Song:
@@ -739,7 +739,7 @@
     bpm: 128
     fits:
     - kondition
-    song: Baksm‰lla
+    song: Baksm√§lla
     used: true
 - Song:
     artist: SuperOrganism
@@ -773,7 +773,7 @@
     artist: Anne-Marie
     bpm: 106
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Chiao Adios
     used: true
 - Song:
@@ -795,7 +795,7 @@
     bpm: 124
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     song: Toes
     used: true
 - Song:
@@ -810,13 +810,13 @@
     bpm: 87
     fits:
     - nedvarvning
-    song: Mer fˆr varandra
+    song: Mer f√§r varandra
     used: true
 - Song:
     artist: Klingande
     bpm: 124
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: Punped Up
     used: false
 - Song:
@@ -859,7 +859,7 @@
     artist: Rita Ora
     bpm: 120
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - styrka
     song: Your Song
     used: false
@@ -867,7 +867,7 @@
     artist: Johnossi
     bpm: 152
     fits:
-    - lˆpning
+    - l√∂pning
     song: Execution Song
     used: true
 - Song:
@@ -901,7 +901,7 @@
     artist: Foo Fighters
     bpm: 159
     fits:
-    - lˆpning
+    - l√∂pning
     genre:
     - metal
     song: Everlong
@@ -911,7 +911,7 @@
     artist: Foo Fighters
     bpm: 174
     fits:
-    - lˆpning
+    - l√∂pning
     genre:
     - metal
     song: The Pretender
@@ -931,7 +931,7 @@
     artist: Foo Fighters
     bpm: 174
     fits:
-    - lˆpning
+    - l√∂pning
     genre:
     - metal
     song: Monkey Wrench
@@ -951,7 +951,7 @@
     artist: Fall Out Boy
     bpm: 156
     fits:
-    - lˆpning
+    - l√∂pning
     genre:
     - punk
     - rock
@@ -962,7 +962,7 @@
     artist: My Chemical Romance
     bpm: 112
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - styrka
     - kondition
     genre:
@@ -1006,7 +1006,7 @@
     artist: AURORA
     bpm: 124
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Forgotten Love
@@ -1017,7 +1017,7 @@
     bpm: 128
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     song: S&M
     spotifylink: spotify:track:0C4ejWmOTMv8vuYj85mf8m
     used: true
@@ -1034,7 +1034,7 @@
     bpm: 126
     fits:
     - styrka
-    - uppv‰rmning
+    - uppv√§rmning
     song: Dance Macabre
     spotifylink: spotify:track:3ZZKg4Xt5PNtihSJS722JS
     used: false
@@ -1084,7 +1084,7 @@
     bpm: 130
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - metal
     song: Square Hammer
@@ -1102,7 +1102,7 @@
     artist: Shebang
     bpm: 170
     fits:
-    - lˆpning
+    - l√∂pning
     song: Crash
     spotifylink: spotify:track:5leOIDX4YmuHJSADKQmwTw
     used: true
@@ -1111,7 +1111,7 @@
     bpm: 133
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Sweet but Psycho
@@ -1144,7 +1144,7 @@
     bpm: 120
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     - styrka
     genre:
     - rock
@@ -1163,7 +1163,7 @@
     artist: Years & Years
     bpm: 104
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     song: If You're Over Me
     spotifylink: spotify:track:01k24g94i1JvkFLQmVEdCd
     used: true
@@ -1202,7 +1202,7 @@
     fits:
     - styrka
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Blow That Smoke (feat. Tove Lo)
@@ -1213,7 +1213,7 @@
     bpm: 123
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     song: Don't Worry (with Ray Dalton) - Radio Edit
     spotifylink: spotify:track:63CSozvYUEudPp12679UVF
     used: true
@@ -1229,7 +1229,7 @@
     artist: Jess Glynne
     bpm: 120
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - kondition
     song: Don't Be So Hard On Yourself
     spotifylink: spotify:track:0sUyqewVzwv0e5tK3hS6vJ
@@ -1253,7 +1253,7 @@
     bpm: 100
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: R.I.P. (feat. Rita Ora & Anitta)
@@ -1317,7 +1317,7 @@
     bpm: 102
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: What I Like About You (feat. Theresa Rex)
@@ -1329,7 +1329,7 @@
     fits:
     - styrka
     - stretch
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - electronic
     - pop
@@ -1348,7 +1348,7 @@
     spotifylink: spotify:track:6bFaDrdNesocJTk6iMy0fa
     used: true
 - Song:
-    artist: Frˆken Elvis
+    artist: Fr√§ken Elvis
     bpm: 162
     fits:
     - stretch
@@ -1363,7 +1363,7 @@
     bpm: 110
     fits:
     - styrka
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Sixteen
@@ -1413,7 +1413,7 @@
     bpm: 127
     fits:
     - kondition
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Same Sea
@@ -1442,12 +1442,12 @@
     spotifylink: spotify:track:5xDakgblcGS1kymzemItsE
     used: false
 - Song:
-    artist: TiÎsto, Jonas Blue, Rita Ora
+    artist: Ti√§sto, Jonas Blue, Rita Ora
     bpm: 115
     fits:
     - kondition
     - styrka
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Ritual
@@ -1534,7 +1534,7 @@
     artist: Gryffin, Maia Wright
     bpm: 123
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     genre:
     - pop
     song: Body Back (feat. Maia Wright)
@@ -1580,25 +1580,25 @@
     spotifylink: spotify:track:6zTABzmPL5AMGsPcOZkPIB
     used: false
 - Song:
-    artist: Helen Sjˆholm, Stefan Nilsson
+    artist: Helen Sj√§holm, Stefan Nilsson
     bpm: 88
     fits:
     - stretch
     - nedvarvning
     genre:
     - svenskt
-    song: Gabriellas sÂng
+    song: Gabriellas s√§ng
     spotifylink: spotify:track:2UL2wKmovIqf0GpqZ2Irjn
     used: false
 - Song:
-    artist: Helen Sjˆholm, Anna Stadling
+    artist: Helen Sj√§holm, Anna Stadling
     bpm: 77
     fits:
     - stretch
     - nedvarvning
     genre:
     - svenskt
-    song: Som en bro ˆver mˆrka vatten
+    song: Som en bro √§ver m√§rka vatten
     spotifylink: spotify:track:4EoXfgWZqB5ngWmihSDKbP
     used: false
 - Song:
@@ -1610,7 +1610,7 @@
     genre:
     - pop
     - svenskt
-    song: Lev nu dˆ sen
+    song: Lev nu d√§ sen
     spotifylink: spotify:track:6HJasLoTKvxglAMQH8nPcD
     used: false
 - Song:
@@ -1627,7 +1627,7 @@
     artist: Halestorm
     bpm: 124
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - kondition
     genre:
     - rock
@@ -1638,11 +1638,11 @@
     artist: Lauv, Anne-Marie
     bpm: 95
     fits:
-    - uppv‰rmning
+    - uppv√§rmning
     - nedvarvning
     genre:
     - pop
-    song: 'fuck, i''m lonely (with Anne-Marie) - from ì13 Reasons Why: Season 3î'
+    song: 'fuck, i''m lonely (with Anne-Marie) - from √§13 Reasons Why: Season 3√§'
     spotifylink: spotify:track:4wopYJ5wpYOM6ogm2Jugnw
     used: false
 - Song:
@@ -1650,7 +1650,7 @@
     bpm: 102
     fits:
     - styrka
-    - uppv‰rmning
+    - uppv√§rmning
     - kondition
     genre:
     - pop

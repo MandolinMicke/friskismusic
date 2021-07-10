@@ -10,7 +10,7 @@ import friskissongs as fsongs
 import jympatypes as jtypes
 import jympasong as jsong
 import webbrowser
-from win32api import GetSystemMetrics
+
 import spotipy
 
 
@@ -26,8 +26,9 @@ class MainWindow():
     def __init__(self,master,songfile):
         self.songfile = songfile
         self.master = master
-        self.width = GetSystemMetrics(0)
-        self.height = GetSystemMetrics(1)
+
+        self.width = master.winfo_screenwidth()
+        self.height = master.winfo_screenheight()
         if self.width > self.height:
             self.width = self.width*2/5
         else:
