@@ -440,7 +440,8 @@ class PlaylistSearchWindow:
 
         if 'https://' in spotifylist:
             # user = spotifylist.split(':')[2]
-            url = spotifylist.split('/')[4]
+            # url = spotifylist.split('/')[4]
+            url = spotifylist
         elif ':' in spotifylist:
             # user = spotifylist.split('/')[4]
             url = spotifylist.split(':')[2]
@@ -448,12 +449,13 @@ class PlaylistSearchWindow:
             print('dont know this type')
             
         results = spotify.user_playlist_tracks(config.client_id,url)
+        # https://open.spotify.com/playlist/2tfOzafHixoE7xKUJS7fHV?si=9124c30f71cf4a39
         self.tracks = results['items']
-
+        
        # Loops to ensure I get every track of the playlist
         while results['next']:
             results = spotify.next(results)
-            self.tracks.extend(results['items'])    
+            self.tracks.extend(results['items'])
             
         
         self.fulllist = []
@@ -463,7 +465,7 @@ class PlaylistSearchWindow:
             
             liststring = artists + ' - ' + song + ' - ' + str(round(spotify.audio_features(tr['track']['uri'])[0]['tempo']))
             self.fulllist.append(liststring)
-            self.resultlist.insert(END,liststring)      
+            self.resultlist.insert(END,liststring)
         
         
     def songChosen(self,event):

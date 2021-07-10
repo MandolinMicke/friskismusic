@@ -1657,3 +1657,246 @@
     song: Rockabye (feat. Sean Paul & Anne-Marie)
     spotifylink: spotify:track:3fvY2U1AzW0diYF0hnBbKt
     used: false
+- Song:
+    artist: DJ Fresh, Ellie Goulding
+    bpm: 175
+    fits:
+    - löpning
+    song: Flashlight - Radio Edit
+    spotifylink: spotify:track:37HCgkkxY9UBwCrKgvV7ks
+    used: true
+- Song:
+    artist: Steve Aoki, Alan Walker, ISÁK
+    bpm: 90
+    fits:
+    - kondition
+    - styrka
+    song: Are You Lonely
+    spotifylink: spotify:track:3cH2reyyuhl69KIHuuUKhv
+    used: false
+- Song:
+    artist: Martin Jensen
+    bpm: 102
+    fits:
+    - kondition
+    - styrka
+    song: Pull Up
+    spotifylink: spotify:track:4opOc0iRhFTa9LBBPJVSzx
+    used: false
+- Song:
+    artist: GAMMAL
+    bpm: 100
+    fits:
+    - nedvarvning
+    - stretch
+    song: Hemma igen
+    spotifylink: spotify:track:2ErOkiCoa7OMAwyR4hGWpN
+    used: false
+- Song:
+    artist: Kygo, Sandro Cavazza
+    bpm: 118
+    fits:
+    - uppvärmning
+    song: Happy Now
+    spotifylink: spotify:track:14sOS5L36385FJ3OL8hew4
+    used: false
+- Song:
+    artist: KIDDO, JIM OUMA
+    bpm: 99
+    fits:
+    - styrka
+    song: Bang My Head
+    spotifylink: spotify:track:3C9iiO7XTg4sIaE47udW7u
+    used: false
+- Song:
+    artist: somegirlnamedanna
+    bpm: 78
+    fits:
+    - nedvarvning
+    song: hello i am
+    spotifylink: spotify:track:77AtgJXeFRvoftJpP4UGpe
+    used: false
+- Song:
+    artist: Jessie J, Ariana Grande, Nicki Minaj
+    bpm: 150
+    fits:
+    - styrka
+    song: Bang Bang
+    spotifylink: spotify:track:0puf9yIluy9W0vpMEUoAnN
+    used: false
+- Song:
+    artist: Raaban, Tungevaag, Luana Kiara
+    bpm: 180
+    fits:
+    - kondition
+    - styrka
+    song: Bad Boy (feat. Luana Kiara)
+    spotifylink: spotify:track:64p6ua7zpf66s62StC2QLv
+    used: false
+- Song:
+    artist: Mike Williams
+    bpm: 128
+    fits:
+    - kondition
+    song: The Beat
+    spotifylink: spotify:track:3b0cJPguhWOh2hjY6Lu192
+    used: false
+- Song:
+    artist: Miss Li
+    bpm: 116
+    fits:
+    - uppvärmning
+    - styrka
+    song: Complicated
+    spotifylink: spotify:track:14RLxOJGYs6BkLnvZYZisy
+    used: false
+- Song:
+    artist: Hogland, KIDDO
+    bpm: 120
+    fits:
+    - uppvärmning
+    song: Letting Go
+    spotifylink: spotify:track:1S7hEPenrIVKVTuEjtXKz9
+    used: false
+- Song:
+    artist: Martin Jensen, Olivia Holt
+    bpm: 180
+    fits:
+    - uppvärmning
+    - stretch
+    song: 16 Steps
+    spotifylink: spotify:track:15Ltokk5ji97WoEBPj9Rm8
+    used: false
+- Song:
+    artist: Faustix
+    bpm: 125
+    fits:
+    - uppvärmning
+    - kondition
+    song: Need You
+    spotifylink: spotify:track:0EQeui6OBMzqJ3Z3wCOzZh
+    used: false
+- Song:
+    artist: NOTD, Astrid S
+    bpm: 120
+    fits:
+    - uppvärmning
+    - kondition
+    - styrka
+    song: I Don't Know Why
+    spotifylink: spotify:track:0ZXdzaT1k688dkpNeEgQiV
+    used: false
+- Song:
+    artist: Demi Lovato
+    bpm: 130
+    fits:
+    - uppvärmning
+    - styrka
+    song: Confident
+    spotifylink: spotify:track:0Mn3amMRMoabaoTf1Publ4
+    used: false
+- Song:
+    artist: Cher Lloyd
+    bpm: 134
+    fits:
+    - styrka
+    - stretch
+    song: None Of My Business
+    spotifylink: spotify:track:2SPEg45ZaUFJCg9GwNmRvw
+    used: false
+- Song:
+    artist: Ruben
+    bpm: 90
+    fits:
+    - styrka
+    - stretch
+    song: The Half
+    spotifylink: spotify:track:7K3ToTmK5P1z0QK9sByc09
+    used: false
+- Song:
+    artist: CLMD, Tungevaag
+    bpm: 122
+    fits:
+    - uppvärmning
+    song: DANCE
+    spotifylink: spotify:track:6TfeXwJihJRuBW3mFpib6J
+    used: false
+- Song:
+    artist: Vicetone, MERŌN
+    bpm: 116
+    fits:
+    - uppvärmning
+    - styrka
+    song: Walk Thru Fire
+    spotifylink: spotify:track:2wQ411UQL2MRsdAgPRUstT
+    used: false
+- Song:
+    artist: Julia Michaels
+    bpm: 121
+    fits:
+    - uppvärmning
+    - kondition
+    - styrka
+    song: Lie Like This
+    spotifylink: spotify:track:5yCXLEi384DHGRXYMXgjBR
+    used: false
+- Song:
+    artist: Icon For Hire
+    bpm: 144
+    fits:
+    - kondition
+    genre:
+    - pop
+    song: Venom
+    spotifylink: spotify:track:4cQWvdxRi6IvEQBbgDveQI
+    used: false
+- Song:
+    artist: Bebe Rexha, Travis Barker
+    bpm: 105
+    fits:
+    - uppvärmning
+    - styrka
+    song: Break My Heart Myself (feat. Travis Barker)
+    spotifylink: spotify:track:4jQxIH11pyibkpzS1xjlkw
+    used: false
+- Song:
+    artist: Bebe Rexha
+    bpm: 124
+    fits:
+    - styrka
+    song: Better Mistakes
+    spotifylink: spotify:track:2HKWYj37hvdZ9xQNPW3GrD
+    used: false
+- Song:
+    artist: Bebe Rexha
+    bpm: 90
+    fits:
+    - styrka
+    song: I'm Gonna Show You Crazy
+    spotifylink: spotify:track:5LtNBCM2ve0SxP0dlRVvMu
+    used: false
+- Song:
+    artist: The Chainsmokers, Bebe Rexha
+    bpm: 104
+    fits:
+    - uppvärmning
+    - styrka
+    song: Call You Mine (feat. Bebe Rexha)
+    spotifylink: spotify:track:05CwHjIk71RXVU40boRMnR
+    used: false
+- Song:
+    artist: Bebe Rexha
+    bpm: 96
+    fits:
+    - stretch
+    song: Sweet Beginnings
+    spotifylink: spotify:track:2LFEAXVwSf9ykTDPu4etrg
+    used: false
+- Song:
+    artist: Bebe Rexha
+    bpm: 165
+    fits:
+    - stretch
+    song: Gone
+    spotifylink: spotify:track:4UNpjLezzEtPXqkm5d09M8
+    used: false
